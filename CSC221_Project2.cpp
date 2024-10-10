@@ -35,10 +35,19 @@ int main()
             break; // Exit the loop
         }
         
-        cout << "Please enter the first number." << endl;
-        cin >> number1;
-        cout << "Please enter the second number." << endl;
-        cin >> number2;
+        if (userInput == 5) {
+            cout << "Please enter the base number" << endl;
+            cin >> number1;
+            cout << "Please enter the power" << endl;
+            cin >> number2;
+        }
+        else {
+            cout << "Please enter the first number." << endl;
+            cin >> number1;
+            cout << "Please enter the second number." << endl;
+            cin >> number2;
+        }
+        
 
         switch (userInput) {
             case 1:
